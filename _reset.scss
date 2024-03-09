@@ -1,0 +1,120 @@
+// reset.scss
+
+// Box sizing rules
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+// Remove default margin
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+// Remove list styles on ul, ol elements
+ul,
+ol {
+    list-style: none;
+}
+
+// Set core body defaults
+body {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+// Remove spacing around display elements
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+// Reset hyperlink styles
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+// Remove the border on images inside links in IE 10/11
+img {
+    border-style: none;
+}
+
+// Responsive images
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// Reset form styles
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+// 1.4em rather than 1em to make sure inputs don't look too cramped
+button,
+input {
+    overflow: visible;
+}
+
+// Remove the inheritance of text transform in Edge and Firefox
+button,
+select {
+    text-transform: none;
+}
+
+// Remove inner padding and border in Firefox 4+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+// Reset outline style
+button,
+input,
+select,
+textarea {
+    outline: none;
+}
+
+// Standardize line height in all browsers
+textarea {
+    line-height: 1.4;
+}
+
+// Remove the gap between audio, canvas, iframes, images, videos and the bottom of their containers in IE 10/11
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}

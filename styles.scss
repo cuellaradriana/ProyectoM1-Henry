@@ -1,0 +1,21 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Mukta:wght@600;700;800&display=swap');
+
+/* Fondo */
+body{
+    width: 100%;
+    background-image: url("../assets/img/fondo.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255,255,255);
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+}
+
+
+/* Módulos */
+@import "reset";
+@import "var";
+@import "header";
+@import "main";
+@import "footer";
